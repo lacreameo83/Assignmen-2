@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    margin: 20px;
+}
+h1  {
+    padding: 10px;
+}
+.box {
+    height: 600px;
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+.box1 {
+    background-color:whitesmoke;
+    height: 45%;
+    width: 30%;
+    position: absolute;
+   left: 35%;
+   border-radius: 10px;
+}
+.box1 hr {
+    border: 5px solid red;
+}
+.box1 h3,p {
+    margin: 15px;
+}
+.box2 h3,p {
+    margin: 15px;
+}
+.box3 h3,p {
+    margin: 15px;
+}
+.box4 h3,p {
+    margin: 15px;
+}
+.move {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+
+}
+.box2 {
+    background-color: whitesmoke;
+    height: 45%;
+    width: 30%;
+    position: absolute;
+    right: 0;
+    bottom: 25%;
+    border-radius: 10px;
+}
+.box2 hr {
+    border: 5px solid blue;
+}
+.box3 {
+    background-color: whitesmoke;
+    height: 45%;
+    width: 30%;
+    position: absolute;
+    bottom: 25%;
+    border-radius: 10px;
+}
+.box3 hr {
+    border: 5px solid green;
+}
+.box4 {
+    background-color: whitesmoke;
+    height: 45%;
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    border-radius: 10px;
+}
+.box4 hr {
+    border: 5px solid yellow;
+}
