@@ -14,7 +14,8 @@ h1  {
     height: 600px;
     position: relative;
     width: 80%;
-    margin: auto;
+    margin: auto ;
+    margin-bottom: 50px;
 }
 .box1 {
     background-color:whitesmoke;
@@ -39,7 +40,7 @@ h1  {
 .box4 h3,p {
     margin: 15px;
 }
-.move {
+i {
     position: absolute;
     bottom: 0;
     right: 0;
